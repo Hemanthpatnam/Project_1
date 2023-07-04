@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Newspaper Layout</title>
+    <meta name="viewport" content="width=device-width,intital-scale=1.0"/>
+   <style>
+    
+body, h1, h2,h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(245, 245, 245, 0.156);
+}
+
+header {
+  background-color:lemonchiffon;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.image{
+  background-image: url('https://www.deccanchronicle.com/_next/image?url=https%3A%2F%2Fdeccanchronicle.sgp1.cdn.digitaloceanspaces.com%2Fdeccan-chronicle-logo-block.png&w=1920&q=75');
+  width: 400px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 35%;
+  
+}
+
+.class1{
+  padding: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  color: brown;
+}
+
+.container{
+  background-color: bisque;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+
+.container1{
+  display: flex;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: lightgray;
+  
+}
+
+.image1{
+  background-image: url(https://gumlet.assettype.com/swarajya/2020-06/471d8213-3ec9-4702-9876-6dc73c43dd41/CBN.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+
+.container2{
+  display:flex;
+  background-color: lightgray;
+  
+  font-family:'Times New Roman', Times, serif
+}
+
+
+.image2{
+  background-image: url('https://akm-img-a-in.tosshub.com/indiatoday/images/story/202209/The_Gods_Go_Green_1.jpg?VersionId=jlesRiOfIYVnNCMg5u81shkKWowQOAFk&size=690:388');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.image2:hover{
+  width: 300px;
+  height: 300px;
+  
+}
+
+.div1{
+  padding: 10px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px;
+ 
+
+}
+
+.container3{
+  background-color: lightgray;
+  width:200px;
+}
+
+.container4{
+  background-color: lightgray;
+  width: 200px;
+}
+
+.icc-cricket{
+  margin: 3px;
+  background-color: lightgray;
+  
+}
+
+.icc-cricket1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+#myHeading{
+  font-weight: normal;
+}
+
+   </style>
+  </head>
+  <body>
+    <header>
+      <div class="image">
+      </div>
+      <p style="color: black;">Issue Date: June 30, 2023</p>
+    </header>
+
+    <div class="container">
+      <a href="https://www.deccanchronicle.com/">Home</a>
+      <div><a href="https://www.deccanchronicle.com/just-in" target="_blank">Latest News</a></div>
+
+      <div>
+        South
+        <select class="select1">
+          <option>Select..</option>
+          <option>Andhra Pradesh</option>
+          <option>Telangana</option>
+          <option>Kerala</option>
+          <option>Tamilnadu</option>
+        </select>
+      </div>
+
+      <div>Cities
+        <select class="select1">
+          <option>Select..</option>
+          <option>Vizag</option>
+          <option>Hyderabad</option>
+          <option>Vijayawada</option>
+          <option>Nellore</option>
+        </select>
+      </div>
+
+      <div><a href="https://www.deccanchronicle.com/nation" target="_blank">Nation</a></div>
+
+      <div><a href="https://www.deccanchronicle.com/sports" target="_blank">Sports</a></div>
+
+      <div><a href="https://www.deccanchronicle.com/world" target="_blank">world</a></div>
+
+      <div>Entertainment
+        <select>
+        <option>Select..</option>
+        <option>Tollywood</option>
+          <option>Bollywood</option>
+          <option>Moview Reviews</option>
+          <option>New Movies</option>
+        </select>
+      </div>
+
+      <div>Opinion & Editorials
+        <select>
+          <option>Select..</option>
+          <option>DC Comments</option>
+            <option>Columns</option>
+          </select>
+      </div>
+
+      <div><a href="file:///C:/Users/Kumar/Desktop/project%201/Dhoni.html/My%20Project.html" target="_blank">Special Stories</a></div>
+
+      <div><a href="https://www.deccanchronicle.com/galleries" target="_blank">Gallery</a></div>
+      
+    </div>
+
+  <div class="container1">
+  <div>
+    <h1 class="class1">AP News Today</h1>
+  <h2>Chandrababu Naidu calls for a close watch on the process of revision of electoral rolls</h2>
+  <p>A complaint has been lodged with the Chief Electoral Officer against the bogus voters, whose number is around 20 lakh, along with evidence, says the TDP supremo</p>
+
+  <p>TDP national president N. Chandrababu Naidu on Thursday told the party cadres to fight against the entry of bogus voters and removal of names of the TDP voters from the electoral rolls allegedly by the YSR Congress Party (YSRCP).</p>
+
+  <p>“The YSRCP will resort to many such electoral malpractices in the months ahead due to its fear of losing the 2024 elections, and it has started doing it,” Mr. Naidu alleged, calling for a close watch on the process of revision of electoral rolls.</p>
+  
+  <p>Addressing a review meeting along with State party president and MLA K. Atchannaidu on voter verification taken up by the TDP, Mr. Naidu said a complaint had been lodged with the Chief Electoral Officer (CEO) against the bogus voters, whose number stood around 20 lakh, along with evidence.</p>
+  
+  <p>He pointed out that there were several instances of removal of the names of people supporting the TDP from the electoral rolls, retaining of names of dead voters in the voter’ list and transfer of votes from one booth to another against norms.</p>
+
+  <p>
+    The TDP cadres should educate the voters about the malicious campaign unleashed by YSRCP, Mr. Naidu said, and insisted that the CEO take the derelict officers and staff to task lest the electoral rolls should be replete with discrepancies.
+  </p>
+  </div>
+
+  <div class="image1"></div>
+  </div><hr><hr>
+
+  <div class="container2">
+
+    <div class="image2"></div>
+
+  <div class="div1">
+  <h2>Tirupati Balaji Temple To Have Facial Recognition System From 1 March- Here’s How It Will Work</h2>
+  <h3 style="padding: 5px;">The temple's management trust, Tirumala Tirupati Devasthanams (TTD), announced that the facial recognition technology will be tested beginning on March 1st.</h3>
+  <h3 style="padding: 5px;">Tirupati Temple: Here's how the system will work</h3>
+  <ul>
+    <li>
+      Devotees must note that they will need to upload another photo on the day of their darshan. If the image does not match, the accommodation management system will reject them. The notice "Face doesn't match with allotted face" will appear in a pop-up window on the screen.
+    </li>
+  </ul>
+  </div>
+  </div>
+  <hr><hr>
+  
+  <div class="flex-container">
+    <div class="container3">
+     <h3 style="padding: 10px;">After Amit Shah's Attack, YSR Cong reminds BJP of Andhra Pradesh special status promise</h3>
+     <img src="https://th-i.thgim.com/public/elections/andhra-pradesh-assembly/wup3rj/article32825110.ece/alternates/FREE_1200/11VJJAGAN" alt="Jagan" width="200" height="200">
+
+     <p style="padding: 10px;">A day after union home minister Amit Shah had launched a scathing attack on Jagan Mohan Reddy led YSRC government in Visakhapatnam, YSRC responded to the BJP's attack.
+     </p>
+
+     <p style="padding: 10px;">
+      "BJP in AP is finding it difficult to campaign. Wherever they go, people are asking about the status of Special Category Status, privatisation of Vizag Steel Plant, South Coast A day after Union home minister Amit Shah launched a scathing attack on the YS Jagan Mohan Reddy-led government in Visakhapatnam, the party responded by saying that the BJP's polarisation strategy does not work in the state. The party also made it clear that it will contest the elections independently.
+     </p>
+
+     <p style="padding: 10px;">
+      "BJP is finding it difficult to campaign in AP. Wherever they go, people are asking about the status of Special Category Status, privatisation of the Vizag Steel Plant, South Coast Railway Zone and AP Reorganisation Act promises. Sadly for the BJP, polarisation does not work in AP," YSRC national general secretary Vijayasai Reddy said on Twitter.
+     </p>
+
+     <p style="padding: 10px;">
+      Terming the possible alliance between the BJP and TDP as a hypothetical one, Vijayasai Reddy said: "In our case, we are very clear. We are going to contest the election independently and maintain equal distance from both the opposition and the central government." The YSRC has been supportive of the BJP's stand in Parliament in the last five years. But Reddy said his party was opposed to NRC-CAA.
+     </p>
+    </div>
+
+    <div class="icc-cricket">
+      <h2 style="font-family: 'Times New Roman', Times, serif;">World Cup Qualifier: How can West Indies still qualify for ODI WC in India after loss to Scotland? EXPLAINED</h2>
+      <h3 style="padding: 5px;">World Cup Qualifier: West Indies have zero points in Super Six and they are out of reckoning for World Cup in India even on mathematical terms. But there is a backstage entry for them.</h3>
+
+    <img src="https://resources.pulse.icc-cricket.com/photo-resources/2023/05/11/5747e4d5-5f63-44d7-aa95-70e4c7301ac9/Pooran-Hope.jpg?width=640&height=360" alt="west-Indies" width="100%">
+
+    <h4>World Cup Qualifier:<h4>
+      <h5 id="myHeading">West Indies have lost the World Cup Qualifier Super Six match against Scotland by a margin of 7 wickets. The Windies were blown away by the Scottish team as Shai Hope's side was rattled out for just 181 with Jason Holder being the lone fighter. In reply, Richie Berrington's team cruised to victory with 7 wickets in hand and 39 balls to go.World Cup Qualifier: West Indies have lost the World Cup Qualifier Super Six match against Scotland by a margin of 7 wickets. The Windies were blown away by the Scottish team as Shai Hope's side was rattled out for just 181 with Jason Holder being the lone fighter. In reply, Richie Berrington's team cruised to victory with 7 wickets in hand and 39 balls to go.</h5>
+    
+      <h5 id="myHeading">West Indies have zero points in Super Six and they will now be able to reach only 4 points if they win the next two games. That will not be enough for them as the two teams are already on 6 points. Only the top two teams from the Super Six stage will qualify for the World Cup 2023, which brings the two-time champions out of reckoning even on mathematical terms. But there can be a backstage entry for the Windies.</h5>
+
+      <div class="icc-cricket1">
+        <div>
+          <img src="https://s.ndtvimg.com/images/content/2015/mar/806/jason-holder-west-indies-upset.jpg" alt="west-indies1" width="70%">
+        </div>
+
+        <div>
+        <img src="https://imagevars.gulfnews.com/2019/06/23/West-Indies--Carlos-Brathwaite-reacts_16b83a22169_original-ratio.jpg" alt="west-indies2" width="70%">
+        </div>
+
+        <div>
+          <img src="https://i0.wp.com/cricketaddictor.com/wp-content/uploads/2022/10/347911.webp?resize=780%2C520&ssl=1" alt="west-indies3" width="70%" height="100%">
+        </div>
+        </div>
+
+         <div>
+          <h3>How can West Indies still qualify for the World Cup in India?</h5>
+
+          <h5 id="myHeading">West Indies can still qualify for the World Cup and that can happen only if Pakistan helps them. Pakistan is currently looking for clearance from its government to participate in the tournament and the venues in India where it will play.
+          </h5>
+
+          <h5 id="myHeading">
+            Notably, if Pakistan withdraws from the tournament, the third best team from the World Cup qualifiers will advance to the main draw of the World Cup with both teams. Pakistan had recently said that they are looking for clearance. “Our participation in the World Cup and whether we will play in Ahmedabad on October 15 or in Mumbai if we qualify for the semi-finals will all depend on government clearance,” a PCB official had said.
+          </h5>
+
+          <h3>
+            How can West Indies break into the top three?
+          </h3>
+
+          <h5 id="myHeading">
+            Windies are fifth in the Super Sixes as they are only above Oman. West Indies can break into the top three only if they win their remaining two matches against Sri Lanka and Oman and depend on other results. There are other outcomes: then they would want only one of Scotland or the Netherlands to get the maximum four points and then they can beat that team on net run rate.
+          </h5>
+
+          <h5 id="myHeading">
+            Scotland already have four points and another win will help the Windies, even if Pakistan helps. So, for the West Indies, Scotland must lose against both Zimbabwe and the Netherlands. And then if Pakistan pull out, the Netherlands must lose to Oman for the Windies to keep the window open for the tournament in India.
+          </h5>
+
+          <h3>
+            SUPER OVER LOSS TO NETHERLANDS
+          </h3>
+          <h5 id="myHeading">
+            This was the game that really knocked the wind out of West Indies’ sail. The side scored 374 runs in the first innings and still ended up losing.
+          </h5>
+
+          <h5 id="myHeading">
+            Having been put to bat, West Indies managed to score at a healthy rate. Until, Pooran walked in. It was blitzkreig after that. Pooran scored a 65-ball 104 and catapulted the total to 374.
+          </h5>
+         </div>
+      </div>
+    
+    <div class="container4">
+      <h3 style="padding: 10px;">Andhra Pradesh Cabinet approves Guaranteed Pension Scheme, regularisation of 10,000 contract staff</h3>
+      <img src="https://telugustop.com/wp-content/uploads/2023/06/Jagan-cabinet-meeting.jpg" alt="jagan1" width="200px" height="150px">
+
+      <p style="padding: 10px;">Approving the Guaranteed Pension Scheme (GPS) to employees, 6,840 new government jobs and regularisation of nearly 10,000 contract employees are some of the key decisions taken by the Andhra Pradesh Cabinet presided by Chief Minister Y S Jagan Mohan Reddy on Wednesday.
+      </p>
+
+      <p style="padding: 10px;">
+        Under the GPS scheme, eligible employees will receive 50 per cent of the last drawn salary as pension, including receiving dearness relief (DR) on the lines of the Central Government declaring dearness allowance and DR twice a year.
+      </p>
+
+      <p style="padding: 10px;">
+        "Keeping the future of the state and the welfare of employees in mind, GPS has been amended," said a press note shared by the state government on Wednesday.
+      </p>
+
+      <p style="padding: 10px;">With respect to contract employees, all such employees who logged service of at least five years by June 2, 2014 would be regularised.
+      </p>
+
+      <p style="padding: 10px;">
+        Likewise, the Cabinet has decided to offer uniform House Rent Allowance (HRA) for all employees working in a district headquarters at 16 per cent.
+      </p>
+
+      <p style="padding: 10px;">
+        Similarly, the Cabinet has approved according DA and DR at 2.73 per cent starting January 1, 2022, which will further burden the exchequer by Rs 200 crore and has also approved the establishment of the 12th Pay Revision Commission (PRC) among others.
+      </p>
+      <img src="https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/01_07_2019_19_06_36_0840092.jpg?width=920" alt="jagan2" width="200px" height="150px">
+  
+    </div>
+
+
+  </div>
+  
+  </body>
+</html>
